@@ -1,0 +1,624 @@
+{
+  "agenda": [
+    {
+      "nome": "Bruno",
+      "celular": "1199999999999"
+    },
+    {
+      "nome": "Daniela",
+      "celular": "1199999999998"
+    },
+    {
+      "nome": "Maria",
+      "celular": "1199999999997"
+    },
+    {
+      "nome": "Joao",
+      "celular": "1199999999996"
+    }
+  ],
+  "clients": [
+    {
+      "codigo": "CL-104",
+      "cliente": "Loja Central",
+      "status": "Ativo"
+    },
+    {
+      "codigo": "CL-117",
+      "cliente": "TechVille",
+      "status": "Ativo"
+    },
+    {
+      "codigo": "CL-128",
+      "cliente": "Digital House",
+      "status": "Ativo"
+    },
+    {
+      "codigo": "CL-132",
+      "cliente": "Mercado Sul",
+      "status": "Inativo"
+    },
+    {
+      "codigo": "CL-133",
+      "cliente": "Erick de Souza",
+      "status": "Ativo"
+    },
+    {
+      "codigo": "CL-134",
+      "cliente": "Erique de Souza",
+      "status": "Ativo"
+    },
+    {
+      "codigo": "CL-135",
+      "cliente": "joão",
+      "status": "Ativo"
+    },
+    {
+      "codigo": "CL-136",
+      "cliente": "eriquek",
+      "status": "Ativo"
+    }
+  ],
+  "suppliers": [
+    {
+      "id_banco": 1,
+      "codigo": "FO-1",
+      "fornecedor": "supa",
+      "prazo": "Ate 48h",
+      "cnpj": "0",
+      "fone": "0",
+      "email": "fornecedor@flowlog.com"
+    },
+    {
+      "id_banco": 2,
+      "codigo": "FO-2",
+      "fornecedor": "Eduardo",
+      "prazo": "Ate 60hr",
+      "cnpj": "0",
+      "fone": "0",
+      "email": "eduardo12@didi"
+    }
+  ],
+  "users": [
+    {
+      "id_banco": 1,
+      "codigo": "USR-01",
+      "nome": "Pedro Henrique",
+      "email": "pedro@pedro",
+      "senha": "123",
+      "perfil": "Admin",
+      "status": true
+    },
+    {
+      "id_banco": 2,
+      "codigo": "USR-02",
+      "nome": "Eric de Souza",
+      "email": "eric@eric",
+      "senha": "123",
+      "perfil": "Admin",
+      "status": true
+    },
+    {
+      "id_banco": 3,
+      "codigo": "USR-03",
+      "nome": "Eduardo Suzuki",
+      "email": "eduardo@eduardo",
+      "senha": "123",
+      "perfil": "Usuário Comum",
+      "status": true
+    },
+    {
+      "id_banco": 4,
+      "codigo": "USR-04",
+      "nome": "edu",
+      "email": "edu",
+      "senha": "123",
+      "perfil": "Usuário Comum",
+      "status": true
+    }
+  ],
+  "products": [
+    {
+      "id_banco": 1,
+      "sku": "1",
+      "nome": "Creme de Finalização",
+      "categoria": "Capilar",
+      "estoque": "5",
+      "descricao": "Define, nutre, hidrata e empodera suas madeixas com auxílio dos ativos: Manteiga de Murumuru Orgânica, Óleo de Linhaça Dourada e Extrato de Avelã. MARA, né? Agora solte sua Juba, ame seus cachos e sinta-se plena.",
+      "preco_compra": 49.9,
+      "valor_venda": 59.9,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 2,
+      "sku": "2",
+      "nome": "Pomada Matte",
+      "categoria": "Capilar",
+      "estoque": "4",
+      "descricao": "A pomada matte (ou pomada efeito seco) é um finalizador capilar que oferece acabamento fosco (sem brilho) e fixação para modelar o cabelo de forma natural. Ideal para penteados despojados, topetes ou cortes texturizados, ela reduz o aspecto de oleosidade e mantém os fios no lugar ao longo do dia.",
+      "preco_compra": 39.9,
+      "valor_venda": 55.9,
+      "data_cadastro": "2026-05-14"
+    },
+    {
+      "id_banco": 3,
+      "sku": "3",
+      "nome": "Óleo para barba",
+      "categoria": "Barba",
+      "estoque": "3",
+      "descricao": "O Óleo para Barba da linha Ice Forest ® é responsável por hidratar sua barba, com óleos essenciais e vitaminas promove pelos fortes, brilho na medida certa, ideal para barbas médias, longas e ressecadas. Sua fórmula exclusiva auxilia no crescimento de uma barba saudável, macia e cheirosa.",
+      "preco_compra": 50.0,
+      "valor_venda": 62.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 4,
+      "sku": "4",
+      "nome": "Hidrante Balm",
+      "categoria": "Barba",
+      "estoque": "5",
+      "descricao": "O Balm Hidratante de Barba Deep Forest Barbarana é a opção perfeita para quem busca uma barba hidratada, alinhada e definida. Com ativos naturais, óleos essenciais e vitaminas, ele proporciona uma aparência saudável e previne coceiras e irritações na pele. Sua textura hidratante e de fácil aplicação é ideal para o cuidado diário da sua barba.",
+      "preco_compra": 48.9,
+      "valor_venda": 59.9,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 5,
+      "sku": "5",
+      "nome": "Shampoo 3 em 1",
+      "categoria": "Capilar",
+      "estoque": "3",
+      "descricao": "Leva o cuidado sem enrolação para outros momentos da rotina do homem. O Shampoo 3 em 1 tem fórmula de alto desempenho e fragrância refrescante, com fórmula multifuncional.",
+      "preco_compra": 44.9,
+      "valor_venda": 59.9,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 6,
+      "sku": "6",
+      "nome": "Cera para Barba",
+      "categoria": "Barba",
+      "estoque": "4",
+      "descricao": "Hidratação Intensa: Com sua fórmula rica em ingredientes naturais, ele hidrata profundamente os fios da barba, garantindo um toque macio e sedoso.",
+      "preco_compra": 47.5,
+      "valor_venda": 59.9,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 7,
+      "sku": "7",
+      "nome": "Pente de Madeira",
+      "categoria": "Capilar e Barba",
+      "estoque": "3",
+      "descricao": "O Pente de madeira ajuda a espalhar essa oleosidade natural em todos os fios, deixando-os mais hidratados e com um aspecto saudável. A Cabreúva também ajuda a retirar os resíduos acumulados nos fios, e a madeira não produz eletricidade estática, reduzindo o frizz e deixando-os mais alinhados.",
+      "preco_compra": 39.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-14"
+    },
+    {
+      "id_banco": 8,
+      "sku": "8",
+      "nome": "Gel Fixador Extra-forte",
+      "categoria": "Capilar",
+      "estoque": "2",
+      "descricao": "O Gel Extra Forte foi desenvolvido para quem busca máxima fixação com praticidade no dia a dia. Sua fórmula garante modelagem firme, sem ressecar os fios e sem deixar resíduos visíveis.",
+      "preco_compra": 38.9,
+      "valor_venda": 49.9,
+      "data_cadastro": "2026-05-14"
+    },
+    {
+      "id_banco": 9,
+      "sku": "9",
+      "nome": "Tônico Capilar",
+      "categoria": "Capilar",
+      "estoque": "2",
+      "descricao": "É um tratamento capilar para crescimento saudável dos fios. Atua diretamente no couro cabeludo estimulando a circulação, fortalecendo a raiz e prolongando o ciclo de vida capilar. Ideal para reduzir a queda, estimular o crescimento e deixar os fios mais fortes desde a raiz.",
+      "preco_compra": 34.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 10,
+      "sku": "10",
+      "nome": "Spray de Brilho",
+      "categoria": "Capilar",
+      "estoque": "1",
+      "descricao": "O Spray de Brilho vai deixar seus fios com um brilho instantâneo e luminoso! Sendo adequado para todos os tipos de cabelo, ele é ideal para dar um toque extra de brilho aos fios e para finalizar penteados. Além disso, ele possui uma fórmula leve que permite cabelos suaves, sedosos, sem frizz, saudáveis, sem odores indesejáveis e com um suave perfume ao longo do dia!",
+      "preco_compra": 69.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 11,
+      "sku": "11",
+      "nome": "Pasta Modeladora",
+      "categoria": "Capilar",
+      "estoque": "2",
+      "descricao": "A Pasta Modeladora foi pensada para ser uma companheira inseparável durante os desafios do dia a dia. É ideal para pentear e modelar os cabelos de todos os jeitos, mas sem perder o aspecto natural.",
+      "preco_compra": 50.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 12,
+      "sku": "12",
+      "nome": "Lâminas descartáveis",
+      "categoria": "Capilar e Barba",
+      "estoque": "5",
+      "descricao": "lâmina para barbear com camada extra de revestimento de cromo platinum. Ela oferece mais precisão no barbear, além de ser muito mais resistente e durável do que as lâminas comuns. Este produto está disponível em embalagem com 5 lâminas.",
+      "preco_compra": 3.99,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 13,
+      "sku": "13",
+      "nome": "Creme de barbear",
+      "categoria": "Barba",
+      "estoque": "3",
+      "descricao": "O creme de barbear é um produto desenvolvido especialmente para a pele do homem e também para a pele mais sensível. Ele oferece um deslizamento mais suave na lâmina com tecnologia Active Comfort que promove proteção e ajuda a prevenir a irritação da pele.",
+      "preco_compra": 49.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 14,
+      "sku": "14",
+      "nome": "Gola Higiênica",
+      "categoria": "Acessório",
+      "estoque": "100",
+      "descricao": "O uso da Gola Higiênica previne riscos de contágio de doenças de pele, proveniente de uso de capas sem a correta higienização; Proporcionando aos clientes maior segurança e conforto com a utilização de produtos descartáveis; Evita manchas de tinta na roupa dos clientes durante o processo de tintura dos cabelos; A Gola Higiênica propicia também maior durabilidade às capas de corte e tintura.",
+      "preco_compra": 74.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 15,
+      "sku": "15",
+      "nome": "Loção Pós-Barba",
+      "categoria": "Barba",
+      "estoque": "2",
+      "descricao": "A Loção Pós Barba acalma, refresca e hidrata a pele após o barbear. Promove o alívio de irritação e desconforto causados pela lâmina de barbear. Enriquecido com ativo natural: Extrato de Calêndula (cicatrizante e calmante).",
+      "preco_compra": 39.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 16,
+      "sku": "16",
+      "nome": "Taco Antisséptico",
+      "categoria": "Corporal",
+      "estoque": "2",
+      "descricao": "Um produto essencial para quem busca cuidado e proteção para a pele. Com 100g de um creme antisséptico eficaz, este talco cremoso da renomada marca Granado é especialmente formulado para oferecer uma sensação de frescor e suavidade, mantendo a pele protegida durante todo o dia.",
+      "preco_compra": 39.55,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 17,
+      "sku": "17",
+      "nome": "Álcool 70%",
+      "categoria": "Higiene",
+      "estoque": "2",
+      "descricao": "Álcool Antibactericida Tupi 70% é ideal para a desinfecção de superfícies e mãos. Possui ação eficaz contra bactérias, proporcionando maior segurança e higiene. Este produto é dermatologicamente testado, garantindo que seja seguro para a pele, e é livre de glúten, tornando-o uma opção acessível para todos. Com uma fragrância neutra, é perfeito para quem prefere produtos sem odores fortes. Além disso, sua formulação em gel facilita a aplicação e a absorção.",
+      "preco_compra": 14.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 18,
+      "sku": "18",
+      "nome": "Óleo lubrificante de Máquinas",
+      "categoria": "Manutenção",
+      "estoque": "3",
+      "descricao": "Óleo mineral e aditivo antioxidante, com viscosidade concentrada, ideal para lubrificação leve de peças e partes.",
+      "preco_compra": 8.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 19,
+      "sku": "19",
+      "nome": "Papel toalha",
+      "categoria": "Higiene",
+      "estoque": "5",
+      "descricao": "Papel toalha apresenta excelente absorção, maciez, resistência e praticidade na higiene do dia a dia , ideal para indústrias, comércios, escritórios, academias, escolas, hospitais, clinicas odontológicas, médicas, estéticas, restaurantes entre outros.",
+      "preco_compra": 9.99,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 20,
+      "sku": "20",
+      "nome": "Espanador de Pescoço",
+      "categoria": "Ferramenta",
+      "estoque": "5",
+      "descricao": "Uma ferramenta essencial para barbeiros e cabeleireiros que buscam eficiência e qualidade em seu trabalho. Este espanador é projetado para proporcionar uma experiência de uso confortável e eficaz. Fabricado em nylon, o material é flexível, permitindo manobras suaves e precisas durante o processo de limpeza.",
+      "preco_compra": 29.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 21,
+      "sku": "21",
+      "nome": "Capa de corte descartável",
+      "categoria": "Acessório",
+      "estoque": "50",
+      "descricao": "Feitas de plástico de alta qualidade, as capas são transparentes e possuem um fechamento adesivo de dupla face, garantindo um ajuste seguro e confortável. O design liso permite uma fácil visualização do trabalho realizado, sem distrações.",
+      "preco_compra": 1.0,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 22,
+      "sku": "22",
+      "nome": "Sabonete Líquido",
+      "categoria": "Higiene",
+      "estoque": "1",
+      "descricao": "O Sabonete Líquido foi criado para proporcionar uma limpeza suave, hidratante e perfumada. Sua fórmula equilibrada forma uma espuma cremosa que limpa sem ressecar, deixando a pele macia e com um aroma leve de chá branco, ideal para quem aprecia cuidado diário com sensação de frescor e bem-estar.",
+      "preco_compra": 11.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 23,
+      "sku": "23",
+      "nome": "Máquina de Corte Sem Fio",
+      "categoria": "Ferramenta",
+      "estoque": "3",
+      "descricao": "Equipada com lâminas de alta precisão e motor potente, oferece desempenho profissional em cada uso. Seu design ergonômico proporciona conforto e firmeza nas mãos, mesmo em longas sessões. O aparelho é 100% à prova d’água, facilitando a higienização após o uso. Conta ainda com display digital, que mostra o nível de bateria, e funciona de forma recarregável, garantindo praticidade e economia.",
+      "preco_compra": 89.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 24,
+      "sku": "24",
+      "nome": "Máquina de Acabamento",
+      "categoria": "Ferramenta",
+      "estoque": "3",
+      "descricao": "Equipada com motor potente, lâminas de aço carbono duráveis e design ergonômico, ela oferece um corte preciso, seguro e silencioso. Ideal para quem busca desempenho, estilo e praticidade. Com bateria de 600 mAh e carregamento via USB-C, proporciona até 90 minutos de uso contínuo após apenas 1,5 hora de carga. Acompanha 6 pentes de altura (1,5 mm a 12 mm), além de acessórios essenciais para a manutenção do aparelho. Seja para uso pessoal ou profissional, essa máquina entrega potência e estilo com corpo em liga de alumínio aeronáutico e acabamento moderno com detalhes coloridos.",
+      "preco_compra": 85.0,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 25,
+      "sku": "25",
+      "nome": "Secador de Cabelo",
+      "categoria": "Ferramenta",
+      "estoque": "2",
+      "descricao": "O Secador de Cabelos combina força e durabilidade para garantir a melhor performance. Sua versatilidade bivolt o torna perfeito para levar a qualquer lugar, garantindo praticidade onde quer que você vá. Proporcione aos seus cabelos mais maciez e brilho. A tecnologia Tourmaline Íons fecha as cutículas dos fios e reduz o frizz, neutralizando a eletricidade estática natural do cabelo.",
+      "preco_compra": 132.0,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 26,
+      "sku": "26",
+      "nome": "Navalhete Inox",
+      "categoria": "Ferramenta",
+      "estoque": "3",
+      "descricao": "O navalhete em aço inoxidável utiliza lâminas descartáveis meia-lâmina (DE partida), favorecendo higiene e troca rápida. Indicado para barbear tradicional, acabamento de barba/bigode e nuca.",
+      "preco_compra": 19.9,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    },
+    {
+      "id_banco": 27,
+      "sku": "27",
+      "nome": "Tesoura de Desbaste",
+      "categoria": "Ferramenta",
+      "estoque": "3",
+      "descricao": "A tesoura de desbaste invertida da marca UMI é perfeita para quem busca um corte preciso e profissional. Com dentes virados para cima, ela proporciona um desbaste suave e uniforme, garantindo um acabamento impecável. Seu design cinza é moderno e elegante, além de ser fácil de manusear.",
+      "preco_compra": 99.99,
+      "valor_venda": 0.0,
+      "data_cadastro": "2026-05-15"
+    }
+  ],
+  "movements": [
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Creme de Finalização",
+      "quantidade": 5,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-14",
+      "tipo": "Entrada",
+      "item": "Pomada Matte",
+      "quantidade": 4,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Óleo para barba",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Hidrante Balm",
+      "quantidade": 5,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Shampoo 3 em 1",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Cera para Barba",
+      "quantidade": 4,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-14",
+      "tipo": "Entrada",
+      "item": "Pente de Madeira",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-14",
+      "tipo": "Entrada",
+      "item": "Gel Fixador Extra-forte",
+      "quantidade": 2,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Tônico Capilar",
+      "quantidade": 2,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Spray de Brilho",
+      "quantidade": 1,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Pasta Modeladora",
+      "quantidade": 2,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Lâminas descartáveis",
+      "quantidade": 5,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Creme de barbear",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Gola Higiênica",
+      "quantidade": 100,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Loção Pós-Barba",
+      "quantidade": 2,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Taco Antisséptico",
+      "quantidade": 2,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Álcool 70%",
+      "quantidade": 2,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Óleo lubrificante de Máquinas",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Papel toalha",
+      "quantidade": 5,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Espanador de Pescoço",
+      "quantidade": 5,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Capa de corte descartável",
+      "quantidade": 50,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Sabonete Líquido",
+      "quantidade": 1,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Máquina de Corte Sem Fio",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Máquina de Acabamento",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Secador de Cabelo",
+      "quantidade": 2,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Navalhete Inox",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Entrada",
+      "item": "Tesoura de Desbaste",
+      "quantidade": 3,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-24",
+      "tipo": "Entrada",
+      "item": "Pomada Matte",
+      "quantidade": 1,
+      "usuario": "Sistema"
+    },
+    {
+      "data": "2026-05-24",
+      "tipo": "Saída",
+      "item": "Pomada Matte",
+      "quantidade": 1,
+      "usuario": "Sistema"
+    }
+  ]
+}
